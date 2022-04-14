@@ -1,0 +1,293 @@
+@media only screen and (min-width: 600px) {
+  .topnav {
+    overflow: hidden;
+    background-color: #000000;
+    border: 0.25em solid #000000;
+    width: 100%;
+  }
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.875em 1em;
+    text-decoration: none;
+    font-size: 1em;
+    width: 30%;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: #ffffff;
+    color: #000000;
+    width: 30%;
+  }
+
+  .topnav a.nav-link {
+    width: 30%;
+  }
+
+  .topnav a:focus {
+    color: red;
+  }
+
+  a:focus {
+    color: red;
+  }
+
+  body {
+    border: black;
+    border-style: solid;
+    outline: none;
+    transform: scale(1);
+    background-color: #25da76;
+    color: #000000;
+  }
+  h1 {
+    font-size: 3em;
+    line-height: 2em;
+  }
+  h2 {
+    font-size: 2.25em;
+    line-height: 2em;
+  }
+  p {
+    font-size: 1em;
+    line-height: 2em;
+  }
+  footer {
+    font-size: 0.5em;
+  }
+  .section1 {
+    background-color: #25da76;
+    color: #000000;
+  }
+  .section2 {
+    background-color: #50e291;
+    color: #000000;
+    border-style: solid;
+  }
+  #skillshtml {
+    width: 90%;
+    background-color: #1eb361;
+  }
+  #skillscss {
+    width: 80%;
+    background-color: #1eb361;
+  }
+  #skillsjs {
+    width: 20%;
+    background-color: red;
+  }
+
+  #submitinstructions {
+    background-color: blueviolet;
+  }
+
+  .vid {
+    width: 300px;
+  }
+  aside {
+    float: right;
+    font-size: 1em;
+    width: 25em;
+    font-style: italic;
+    border-color: #000000;
+  }
+  .Skip-link {
+    opacity: 0;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .topnav {
+    overflow: hidden;
+    background-color: #000000;
+    border: 0.25em solid #000000;
+    width: 100%;
+  }
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.875em 1em;
+    text-decoration: none;
+    font-size: 1em;
+    width: 30%;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: #ffffff;
+    color: #000000;
+    width: 30%;
+  }
+
+  .topnav a.nav-link {
+    width: 30%;
+  }
+
+  :focus {
+    color: red;
+  }
+  body {
+    border: black;
+    border-style: solid;
+    outline: none;
+    transform: scale(1);
+    background-color: #25da76;
+    color: #000000;
+  }
+  h1 {
+    font-size: 3em;
+    line-height: 2em;
+  }
+  h2 {
+    font-size: 2.25em;
+    line-height: 2em;
+  }
+  p {
+    font-size: 1em;
+    line-height: 2em;
+  }
+  footer {
+    font-size: 0.5em;
+  }
+  .section1 {
+    background-color: #25da76;
+    color: #000000;
+  }
+  .section2 {
+    background-color: #50e291;
+    color: #000000;
+    border-style: solid;
+  }
+  #skillshtml {
+    width: 90%;
+    background-color: #1eb361;
+  }
+  #skillscss {
+    width: 80%;
+    background-color: #1eb361;
+  }
+  #skillsjs {
+    width: 20%;
+    background-color: red;
+  }
+
+  #submitinstructions {
+    background-color: blueviolet;
+  }
+
+  .vid {
+    width: 300px;
+  }
+  aside {
+    float: right;
+    font-size: 1em;
+    width: 25em;
+    font-style: italic;
+    border-color: #000000;
+  }
+  .Skip-link {
+    opacity: 0;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .topnav {
+    overflow: hidden;
+    background-color: #000000;
+    border: 0.25em solid #000000;
+    width: 100%;
+  }
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.875em 1em;
+    text-decoration: none;
+    font-size: 1em;
+    width: 30%;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: #ffffff;
+    color: #000000;
+    width: 30%;
+  }
+
+  .topnav a.nav-link {
+    width: 30%;
+  }
+
+  .focus {
+    color: red;
+  }
+  body {
+    border: black;
+    border-style: solid;
+    outline: none;
+    transform: scale(1);
+    background-color: #25da76;
+    color: #000000;
+  }
+  h1 {
+    font-size: 3em;
+    line-height: 2em;
+  }
+  h2 {
+    font-size: 2.25em;
+    line-height: 2em;
+  }
+  p {
+    font-size: 1em;
+    line-height: 2em;
+  }
+  footer {
+    font-size: 0.5em;
+  }
+  .section1 {
+    background-color: #25da76;
+    color: #000000;
+  }
+  .section2 {
+    background-color: #50e291;
+    color: #000000;
+    border-style: solid;
+  }
+  #skillshtml {
+    width: 90%;
+    background-color: #1eb361;
+  }
+  #skillscss {
+    width: 80%;
+    background-color: #1eb361;
+  }
+  #skillsjs {
+    width: 20%;
+    background-color: red;
+  }
+
+  #submitinstructions {
+    background-color: blueviolet;
+  }
+
+  .vid {
+    width: 300px;
+  }
+  aside {
+    float: right;
+    font-size: 1em;
+    width: 25em;
+    font-style: italic;
+    border-color: #000000;
+  }
+  .Skip-link {
+    opacity: 0;
+  }
+}

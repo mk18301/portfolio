@@ -1,0 +1,103 @@
+<!doctype html>
+  <html lang="en"> 
+    <head> 
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-195060497-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-195060497-2');
+</script>
+
+
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link href="Style.css" rel="stylesheet"/>
+      <script src="Script.js" defer></script>
+      <title>My Portfolio</title>
+    </head>
+
+      <h1>Contacts</h1>
+      <body id="contactbody">
+        <section class="topnav" id="aboutmenav">
+          <a class="nav-link" href="index.html">About Me</a>
+          <a class="active" href="contacts.html">Contact</a>
+          <a class="nav-link" href="pastjobs.html">Past Jobs</a>
+        </section>
+
+        <a class="Skip-link" href="pastjobs.html">
+          Go to my previous list of jobs
+        </a>
+      <section class="section1">
+        <aside>
+          <h2>How often I check my email</h2>
+          <p id="email2">I usually checked my email every one or two days</p>
+        </aside>
+        <h2 id="emailh2">Email</h2>
+        <p id="email1">My email address is Mkickhaver@gmail.com</p>
+      </section>
+      <section class="section2">
+        <aside>
+          <h2>How often I check my phone</h2>
+          <p>My phone is usally next to me so if you call I will usually pick up but if I forget to turn silent mode off It will take me a couple of hours to respond</p>
+        </aside>
+        <h2 id="phoneh2">Phone</h2>
+        <p id="phone1">The number for my cell phone is 715-301-3151</p>
+       
+      </section>
+      <section class="section1">
+        <h2>Social media</h2>
+        <a href="https://www.facebook.com/mavrick.kickhaver/">
+          <figure>
+            <img id="facebooklogo" src="facebooklogo.png" alt="facebook" width="80">
+            <figcaption id="facebookcaption">Facebook</figcaption>
+          </figure>
+        </a>
+        <a href="https://www.linkedin.com/in/mavrick-kickhaver-b494b01a7/">
+          <figure>
+            <img id="linkedinlogo" src="LinkedInlogo.jpg" alt="linkedin" width="80">
+            <figcaption id="linkedincaption">Linkedin</figcaption>
+          </figure>
+        </a>
+      </section>
+
+      <section class="section2">
+        <form name="Contact me" action="/action_page.php" onsubmit="return required()" aria-label="A form for any visitors to type in a message for me" required>
+        <fieldset>
+        <legend>Message Me:</legend>
+
+        
+        <label for="namepanel" id="yourname">Enter your name (required) </label>
+        <input type="text" tabindex="1" name="name"><br><br>
+        <sub id="namepanel"></sub><br>
+      
+        <label for="phonepanel" id="phone">Enter your phone number</label>
+        <input type="tel" tabindex="2" placeholder="###-###-####" id="phonepanel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+    
+        <label for="emailpanel" id="email">Enter your email (required)</label>
+        <input type="email" tabindex="3" name="email"><br><br>
+        <sub id="emailpanel"></sub><br>
+      
+        <label for="textarea">Type you message here:</label>
+        <textarea rows="8" tabindex="4" cols="50" name="text">
+        </textarea>
+        <input type="submit" value="Submit your message" id="submitinstructions" onClick="return empty()">
+        </fieldset>
+        </form>
+      </section>
+
+<footer>
+  
+    <h2>Preferences</h2>
+    <ul>
+      <li><p>I prefer if people contacted me with my email instead of using a phone</p></li>
+      <li><p>However if you do contact me via phone please try to text instead of call</p></li>
+    </ul>
+
+</footer>
+      
+    </body>
+  </html>
